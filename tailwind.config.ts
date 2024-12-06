@@ -1,3 +1,4 @@
+import { Poppins } from "@next/font/google";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -9,6 +10,12 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		letterSpacing:{
+			'3pct':'3%'
+		},
+		fontFamily:{
+			poppins:['Poppins','sans-sarif']
+		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
