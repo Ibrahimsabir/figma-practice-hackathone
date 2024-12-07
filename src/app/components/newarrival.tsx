@@ -1,8 +1,6 @@
 import React from 'react'
 import { Poppins } from '@next/font/google'
-import Image from 'next/image';
-import { IoArrowForwardSharp } from "react-icons/io5";
-import { IoArrowBackSharp } from "react-icons/io5";
+import NewArrivalGrid from './newarrivalgrid';
 
 
 
@@ -30,7 +28,7 @@ const NewArrival = () => {
         </div>
         </div>
         <div>
-        {/* <FlashCard/> */}
+        <NewArrivalGrid/>
         </div>
     </div>
   )

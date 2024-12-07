@@ -8,12 +8,12 @@ import { MdOutlineVideogameAsset } from "react-icons/md";
 
 const CategoryName = () => {
   const cards = [
-    { id: 1, icon: <MdOutlinePhoneIphone size={40} className="text-gray-500" />, name: "Phone" },
-    { id: 2, icon: <MdOutlineComputer size={40} className="text-gray-500" />, name: "Computers" },
-    { id: 3, icon: <TbDeviceWatchStats size={40} className="text-gray-500" />, name: "Smart Watch" },
-    { id: 4, icon: <MdOutlinePhotoCameraBack size={40} className="text-white" />, name: "Camera" },
-    { id: 5, icon: <MdOutlineHeadsetMic size={40} className="text-gray-500" />, name: "HeadPhones" },
-    { id: 6, icon: <MdOutlineVideogameAsset size={40} className="text-gray-500" />, name: "Gaming" },
+    { id: 1, icon: <MdOutlinePhoneIphone size={40} />, name: "Phone" },
+    { id: 2, icon: <MdOutlineComputer size={40} />, name: "Computers" },
+    { id: 3, icon: <TbDeviceWatchStats size={40} />, name: "Smart Watch" },
+    { id: 4, icon: <MdOutlinePhotoCameraBack size={40} />, name: "Camera" },
+    { id: 5, icon: <MdOutlineHeadsetMic size={40} />, name: "HeadPhones" },
+    { id: 6, icon: <MdOutlineVideogameAsset size={40} />, name: "Gaming" },
   ];
 
   return (
@@ -21,11 +21,11 @@ const CategoryName = () => {
       {cards.map((card) => (
         <div
           key={card.id}
-          className={`w-40 h-40 flex flex-col justify-center items-center border-2 rounded-[4px] hover:shadow-lg transition-shadow ${
-            card.id === 4 ? "bg-red-500 text-white" : "bg-white border-gray-300"
-          }`}
+          className="group w-40 h-40 flex flex-col justify-center items-center bg-white border-2 border-gray-300 rounded-[4px] hover:bg-red-700 hover:text-white hover:shadow-lg transition-all"
         >
-          {card.icon}
+          <div className="text-gray-700 group-hover:text-white transition-all">
+            {card.icon}
+          </div>
           <h2 className="text-lg font-semibold mt-4">{card.name}</h2>
         </div>
       ))}
