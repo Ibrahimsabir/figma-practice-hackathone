@@ -17,7 +17,7 @@ const HeroNext = () => {
         {/* Title Section */}
         <div className="flex items-center gap-4">
           <div className="w-4 h-10 bg-red-600 rounded"></div>
-          <h1 className="text-xl font-semibold text-red-600">{`Today's`}</h1>
+          <h1 className="text-xl font-semibold text-red-600">Today&apos;s</h1>
         </div>
 
         {/* Flash Sales Section */}

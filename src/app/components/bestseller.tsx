@@ -13,7 +13,7 @@ const BestSeller = () => {
             <div className="w-full h-full p-6 flex flex-col gap-4 justify-start items-start">
                 <div className="flex justify-start items-center gap-4">
                     <div className="w-[20px] h-[40px] rounded bg-red-600"></div>
-                    <h1 className="text-xl font-semibold text-red-600">{`This Month's`}</h1>
+                    <h1 className="text-xl font-semibold text-red-600">Month&apos;s</h1>
                 </div>
                 <div className="flex w-full md:w-[1170px] justify-between items-center pr-4 md:pr-16">
                     <div className="flex justify-start items-baseline gap-4">
