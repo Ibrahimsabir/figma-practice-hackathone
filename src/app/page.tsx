@@ -1,8 +1,5 @@
-import Image from "next/image";
 import Hero from "./components/hero";
-import Footer from "./components/footer";
 import HeroNext from "./components/heronext";
-import FlashCard from "./components/flashcard";
 import BestSeller from "./components/bestseller";
 import { Frame } from "./components/frame";
 import Category from "./components/category";

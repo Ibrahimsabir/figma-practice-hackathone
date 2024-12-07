@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Sidebar } from './sidebar';
 import { FaApple, FaArrowRight } from "react-icons/fa6";
 import { Poppins } from '@next/font/google';
-import { GoDot, GoDotFill } from "react-icons/go";
+import { GoDotFill } from "react-icons/go";
 
 const poppin = Poppins({
   subsets: ['latin'],
