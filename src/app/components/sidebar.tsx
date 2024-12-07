@@ -4,8 +4,8 @@ import { FaAngleRight } from "react-icons/fa6";
 
 export const Sidebar = () => {
   return (
-    <div className='border-r-2 border-gray-200'>
-        <div className="absolute w-[217px] h-[344px] left-[55px]  flex flex-col border-r-2 border-gray-200 items-start pt-8 gap-4">
+    <div className=''>
+        <div className="absolute border-r-2  border-gray-200 w-[217px] h-[380px] left-[55px]  flex flex-col  items-start pt-20 gap-2">
     {/* Your content here */}
   <DropdownButton textSize={11}textColor="#403c3b" textContent="Women's Fashion" icon={(<FaAngleRight/>)}/>
   <DropdownButton textSize={11}textColor="#403c3b" textContent="Men's Fashion" icon={(<FaAngleRight/>)}/>

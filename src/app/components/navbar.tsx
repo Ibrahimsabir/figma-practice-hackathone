@@ -13,9 +13,10 @@ const poppin = Poppins({
   });
 const Navbar = () => {
   return (
-    <div className={`${poppin.className} min-w-full h-[100px] md:flex  justify-evenly gap-36 items-center m-auto border-b-2 3%`}>
+    <div className={`${poppin.className} min-w-full h-[100px] md:flex   border-b-2 3%`}>
+        <div className='max-w-[1170px] h[38px] flex flex-col md:flex-row justify-evenly items-center gap-36 m-auto'>
         <h1 className='text-3xl font-bold inline'>Exclusive</h1>
-        <ul className='flex gap-4 '>
+        <ul className='flex gap-4 cursor-pointer '>
             <li className=' hover:border-b-2 border-gray-400 '>Home</li>
             <li className=' hover:border-b-2 border-gray-400 '>Contact</li>
             <li className=' hover:border-b-2 border-gray-400 '>About</li>
@@ -30,6 +31,7 @@ const Navbar = () => {
         <FaRegHeart className='text-xl text-gray-700 mr-4'/>
         <FaShoppingCart className='text-xl text-gray-700 mr-4'/>
         <IoPersonCircleSharp className='text-3xl text-red-700 mr-4'/>
+        </div>
         </div>
  </div>)
 }

@@ -9,7 +9,7 @@ const poppin = Poppins({
   });
 const Top = () => {
   return (
-    <div className='flex  sm:font-thin sm:flex-col '>
+    <div className='flex flex-col sm:flex-row sm:justify-between items-center'>
     <div className={`${poppin.className} w-full h-[48px] flex bg-black text-white  justify-center items-center m-auto`}>
         <p className='text-gray-300 text-sm ml-64'>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! 
         <span className='underline hover:font-bold ml-4  text-white'>SHOP NOW</span>
